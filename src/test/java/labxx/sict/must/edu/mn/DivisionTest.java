@@ -1,0 +1,16 @@
+package labxx.sict.must.edu.mn;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
+public class DivisionTest {
+    @Test
+    void testDividePositive() {
+        Division calc = new Division();
+        assertEquals(2.0, calc.divide(4.0, 2.0), "4 / 2 нь 2-той тэнцүү байх ёстой");
+    }
+
+    @Test
+    void testDivideNegative() {
+        Division calc = new Division();
+        assertEquals(-2.0, calc.divide(-4.0, 2.0), "-4 / 2 нь -2-той тэнцүү байх ёстой");
+    }
+}
