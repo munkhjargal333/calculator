@@ -3,23 +3,3 @@ target/
 bin/
 out/
 
-# IntelliJ IDEA
-*.iml
-.idea/
-
-# Eclipse
-.project
-.classpath
-.settings/
-
-# Compiled class files
-*.class
-
-# Logs
-*.log
-
-# MacOS
-.DS_Store
-
-# Windows
-Thumbs.db
