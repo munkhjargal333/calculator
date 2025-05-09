@@ -5,10 +5,9 @@ public class Multiplication {
      * Multiply two integers.
      * @param a first number
      * @param b second number
-     * @return there must be conflict
+     * @return multiply
      */
     public double multiply(double a, double b) {
-        System.out.println("Left version multiplication");
         return a * b;
     }
 }
