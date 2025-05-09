@@ -8,6 +8,7 @@ public class Multiplication {
      * @return conflict
      */
     public double multiply(double a, double b) {
+        System.out.println("Right version multiplication");
         return a * b;
     }
 }
