@@ -8,6 +8,6 @@ public class Multiplication {
      * @return number
      */
     public double multiply(double a, double b) {
-        return a - b;
+        return a * b;
     }
 }
