@@ -5,7 +5,7 @@ public class Multiplication {
      * Multiply two integers.
      * @param a first number
      * @param b second number
-     * @return number
+     * @return version
      */
     public double multiply(double a, double b) {
         return a * b;
